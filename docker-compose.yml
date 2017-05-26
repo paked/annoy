@@ -1,0 +1,6 @@
+version: '2'
+services:
+  annoy:
+    build: .
+    volumes:
+      - .:/usr/src/app
